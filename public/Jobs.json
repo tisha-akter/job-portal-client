@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "title": "Software Engineer",
+      "category": "Technology",
+      "company": "Tech Solutions Ltd.",
+      "location": "Dhaka, Bangladesh",
+      "description": "Develop and maintain web applications.",
+      "date": "March 10, 2025",
+      "icon": "FaCode"
+    },
+    {
+      "id": 2,
+      "title": "Digital Marketing Specialist",
+      "category": "Marketing",
+      "company": "AdCom Agency",
+      "location": "Chittagong, Bangladesh",
+      "description": "Plan and execute digital campaigns.",
+      "date": "March 12, 2025",
+      "icon": "FaBullhorn"
+    },
+    {
+      "id": 3,
+      "title": "Financial Analyst",
+      "category": "Finance",
+      "company": "Prime Bank Ltd.",
+      "location": "Dhaka, Bangladesh",
+      "description": "Analyze financial data and reports.",
+      "date": "March 8, 2025",
+      "icon": "FaChartLine"
+    },
+    {
+      "id": 4,
+      "title": "Legal Advisor",
+      "category": "Legal",
+      "company": "BD Law Firm",
+      "location": "Dhaka, Bangladesh",
+      "description": "Provide legal consultation and draft contracts.",
+      "date": "March 15, 2025",
+      "icon": "FaBalanceScale"
+    },
+    {
+      "id": 5,
+      "title": "Sales Executive",
+      "category": "Sales",
+      "company": "Retail Solutions Ltd.",
+      "location": "Sylhet, Bangladesh",
+      "description": "Manage client relationships and drive sales.",
+      "date": "March 14, 2025",
+      "icon": "FaShoppingCart"
+    },
+    {
+      "id": 6,
+      "title": "Customer Support Representative",
+      "category": "Customer Care",
+      "company": "CallNet Services",
+      "location": "Khulna, Bangladesh",
+      "description": "Assist customers with inquiries and complaints.",
+      "date": "March 13, 2025",
+      "icon": "FaHeadset"
+    }
+  ]
+  
+  
