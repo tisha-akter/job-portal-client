@@ -75,16 +75,6 @@ export const Footer = () => {
         
 
         <div className="flex flex-col pt-3 justify-center items-center">
-          <p className="text-sm">
-            Designed and Developed by{" "}
-            <Link
-              target="_blank"
-              className="underline text-indigo-500"
-              to="https://sujal-tangde.netlify.app/"
-            >
-              Tisha Akter jui
-            </Link>
-          </p>
           <p className="text-sm"> &copy;Copyright, All rights reserved 2025.</p>
         </div>
 
