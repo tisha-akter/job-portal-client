@@ -15,7 +15,6 @@ const Hero = () => {
           <br /> your job applications from start to finish.
         </p>
 
-        {/* Centered Button */}
         <div className="flex justify-center">
           <Link to="/jobs">
             <button className="inline-flex text-white bg-indigo-500 border-0 py-3 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg transition duration-300 ease-in-out transform hover:scale-105">
