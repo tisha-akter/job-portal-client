@@ -7,7 +7,8 @@
       "location": "Dhaka, Bangladesh",
       "description": "Develop and maintain web applications.",
       "date": "March 10, 2025",
-      "icon": "FaCode"
+      "icon": "FaCode",
+      "featured": true
     },
     {
       "id": 2,
@@ -17,7 +18,8 @@
       "location": "Chittagong, Bangladesh",
       "description": "Plan and execute digital campaigns.",
       "date": "March 12, 2025",
-      "icon": "FaBullhorn"
+      "icon": "FaBullhorn",
+      "featured": false
     },
     {
       "id": 3,
@@ -27,7 +29,8 @@
       "location": "Dhaka, Bangladesh",
       "description": "Analyze financial data and reports.",
       "date": "March 8, 2025",
-      "icon": "FaChartLine"
+      "icon": "FaChartLine",
+      "featured": false
     },
     {
       "id": 4,
@@ -37,7 +40,8 @@
       "location": "Dhaka, Bangladesh",
       "description": "Provide legal consultation and draft contracts.",
       "date": "March 15, 2025",
-      "icon": "FaBalanceScale"
+      "icon": "FaBalanceScale",
+      "featured": true
     },
     {
       "id": 5,
@@ -47,7 +51,8 @@
       "location": "Sylhet, Bangladesh",
       "description": "Manage client relationships and drive sales.",
       "date": "March 14, 2025",
-      "icon": "FaShoppingCart"
+      "icon": "FaShoppingCart",
+      "featured": false
     },
     {
       "id": 6,
@@ -57,7 +62,8 @@
       "location": "Khulna, Bangladesh",
       "description": "Assist customers with inquiries and complaints.",
       "date": "March 13, 2025",
-      "icon": "FaHeadset"
+      "icon": "FaHeadset",
+      "featured": true
     }
   ]
   

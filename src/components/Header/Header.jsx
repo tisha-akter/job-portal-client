@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,6 @@ const Navbar = () => {
     <div className="bg-gray-900 text-white fixed w-full z-20">
       <div className="container mx-auto px-4 py-3">
         <header className="flex flex-col md:flex-row md:justify-between md:items-center">
-          {/* Logo Section */}
           <div className="flex justify-between items-center w-full">
             <div>
               <h1 className="text-xl font-semibold">JobPortal</h1>
@@ -37,7 +36,7 @@ const Navbar = () => {
           {/* Main Navigation */}
           <nav
             className={`${
-              isMenuOpen ? 'block' : 'hidden'
+              isMenuOpen ? "block" : "hidden"
             } md:flex md:items-center w-full mt-4 md:mt-0`}
           >
             <div className="px-4 py-2">
@@ -95,45 +94,8 @@ const Navbar = () => {
           </div>
         </header>
       </div>
-
-      {/* Mobile Navigation */}
-      <div
-        className={`${
-          isMenuOpen ? 'block' : 'hidden'
-        } bg-gray-900 text-white w-full py-4 px-4 md:hidden`}
-      >
-        <Link
-          to="/"
-          className="block text-lg text-white py-2 hover:text-indigo-400"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Home
-        </Link>
-        <Link
-          to="/jobs"
-          className="block text-lg text-white py-2 hover:text-indigo-400"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Jobs
-        </Link>
-        <Link
-          to="/contact"
-          className="block text-lg text-white py-2 hover:text-indigo-400"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Contact
-        </Link>
-        <Link
-          to="/about"
-          className="block text-lg text-white py-2 hover:text-indigo-400"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          About
-        </Link>
-      </div>
     </div>
   );
 };
 
 export default Navbar;
-
