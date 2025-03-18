@@ -9,6 +9,8 @@ import Home from './components/Home'
 import Error from './Error'
 
 import JobsPage from './components/JobsPage'
+import Contact from './components/Contact'
+import About from './components/About'
 
 
 const router = createBrowserRouter([
@@ -25,7 +27,14 @@ const router = createBrowserRouter([
       path: 'jobs',
       element: <JobsPage></JobsPage>
     },
-    
+    {
+      path: 'contact',
+      element: <Contact></Contact>
+    },
+    {
+      path: 'about',
+      element: <About></About>
+    },
     
     {
       path: '*',
